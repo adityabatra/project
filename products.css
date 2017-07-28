@@ -1,0 +1,60 @@
+.product-1-a{
+	position: absolute;
+	top:0;
+	left: 0;
+	height:30%;
+	width: 100%;
+	background-color: #222233;
+}
+.product-1-b{
+	position: absolute;
+	top:30%;
+	height:70%;
+	left: 0;
+	width:100%;
+	background-color: #fff;
+	
+}
+#drumz-h1{
+	margin-top: 70px;
+	font-family: "pnt";
+	font-size: 25pt;
+	letter-spacing: 3pt;
+	color:#FFF;
+}
+#drumzlogo{
+			height:120px;
+			width:120px;
+			margin-top: -40px;
+		}
+#drumz-pic{
+	
+	
+	height:400px;
+	width: 400px;
+	position: absolute;
+	top:30%;
+	left:55%;
+	float: right;
+	
+
+}
+#about-pro{
+	display: inline-block;
+	float:left;
+	font-family: "Montserrat";
+	font-size: 20pt;
+	letter-spacing: 2pt;
+	color: #4a4949;
+	margin-top: 100PX;
+	margin-left: 100px;
+}
+#details-pro{
+	
+	position: relative;
+	font-family: "pnt";
+	font-size:15pt;
+	margin-top: 160px;
+	margin-left:100px;
+	width: 50%; 
+}

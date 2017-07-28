@@ -1,0 +1,46 @@
+header{
+				position: fixed;
+				z-index: 999999;
+				width: 100%;
+				height:;
+			}
+			#nav-logo{
+				height:50px;
+				width:50px;
+				float: left;
+				margin-left: 10px;
+				margin-top: 10px;
+
+			}
+			ul{
+				text-decoration: none;
+				list-style-type: none;
+			}
+			li{
+				float:right;
+				color: #F1F0F0;
+				font-family: "Montserrat";
+				font-size: 12pt;
+				margin-right : 50px;
+				cursor: pointer;
+			}
+			li:hover{
+				color: #fff;
+				transition: 0.1s;
+			}
+			#nav-img{
+				height:40px;
+				width:40px;
+			}
+			#nav{
+				display: none;
+			}
+			@media only screen and (max-width:750px){
+				.big-nav{
+					display: none;
+				}
+				#nav{
+					display: block;
+				}
+
+			}

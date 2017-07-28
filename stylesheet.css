@@ -1,0 +1,36 @@
+			body{
+				overflow-x: hidden;
+				padding-top: 0;
+				margin: 0;
+
+				
+			}
+			@font-face{
+				src:url("pnt.ttf");
+				font-family: "pnt";
+			}
+			#pro{
+			text-decoration: none;
+			color: #CCCCCC;
+		}
+
+		::-webkit-scrollbar {
+  width: 7px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666666;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track:active {
+  background-color: #333333;
+}

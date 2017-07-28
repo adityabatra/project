@@ -1,0 +1,118 @@
+.home{
+				position: absolute;
+				top:0;
+				left: 0;
+				height:100%;
+				width:100%;
+				background-image: url('back2.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				z-index: 0;
+			}
+			.overlay{
+				position: absolute;
+				top: 0;
+				left:0;
+				height:100%;
+				width:100%;
+				background-color: rgba(0,0,0,0.9);
+				
+				z-index: 1;
+			}
+			
+			#comp-name{
+				font-family: "Montserrat";
+				font-size: 50pt;
+				color: #fff;
+				letter-spacing: 10pt;
+				margin-top: 20px;
+
+			}
+			#full-form{
+				font-family: "Montserrat";
+				font-size: 12pt;
+				color: #fff;
+				margin-top: -30px;
+				letter-spacing: 1pt;
+			}
+			.cam{
+				height:65px;
+				width:65px;
+				margin-top: 250px;
+			}
+			.button{
+				color: #D8D8D8;
+				background-color: transparent;
+				font-family: "Montserrat";
+				height:60px;
+				width:150px;
+				border: 2px solid #fff;
+				margin-top: 50px;
+				font-size:11pt;
+				cursor: pointer;
+				outline: none;
+			}
+			.button:hover{
+				background-color: #fff;
+				color: black;
+				font-weight: bold;
+				transition: .2s;
+			}
+			
+			
+		.video-div{
+			position: absolute;
+			top:100%;
+			width:100%;
+			height:75%;
+			left:0;
+			background-color: #fff;
+		}
+		
+		
+		
+		.frame{
+			margin-top: 100px;
+			height:400px;
+			width:700px;
+		}
+
+		@media only screen and (max-width: 750px){
+			#comp-name{
+				font-size:30pt;
+			}
+			#full-form{
+				font-size:10pt;
+				margin-top: -15px;
+			}
+				.frame{
+			
+			height:300px;
+			width:500px;
+		}
+		}
+		@media only screen and (max-width: 480px){
+			#comp-name{
+				font-size:15pt;
+				letter-spacing: 3pt;
+
+			}
+			#full-form{
+				font-size:8pt;
+				margin-top: 5px;
+			}
+			.button{
+				height:50px;
+				width:130px;
+			}
+			.frame{
+				width:300px;
+				height:250px;
+			}
+		
+		}
+
+
+		
+		

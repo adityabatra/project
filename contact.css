@@ -1,0 +1,46 @@
+.contact-div{
+	height:130%;
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: #222233;
+}
+#contact-h1{
+	font-family: "Montserrat";
+	font-size:30pt;
+	left: 3pt;
+	color: #DADADA;
+	margin-top: 150px;
+}
+#line{
+	height: 1px;
+	width: 70%;
+	background: #ccc;
+	display: block;
+	line-height: 1.4em;
+	margin-top:50px;
+}
+#email{
+	margin-top:50px;
+}
+.contact-info{
+	font-family: "pnt";
+	font-size:15pt;
+	color:#DADADA;
+	margin-top: 10px;
+}
+.icon{
+	display: inline-block;
+	margin-left: 5px;
+	height:30px;
+	width:30px;
+}
+#fb-icon{
+	height:30px;
+	width:30px;
+}
+#map-frame{
+	display: block;
+	margin-top: 30px;
+}
