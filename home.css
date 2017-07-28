@@ -79,8 +79,13 @@
 		}
 
 		@media only screen and (max-width: 750px){
+
+			.cam{
+				margin-top: 320px;
+			}
 			#comp-name{
 				font-size:30pt;
+
 			}
 			#full-form{
 				font-size:10pt;
