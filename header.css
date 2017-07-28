@@ -16,7 +16,7 @@ header{
 				text-decoration: none;
 				list-style-type: none;
 			}
-			li{
+			.big-nav{
 				float:right;
 				color: #F1F0F0;
 				font-family: "Montserrat";
@@ -24,7 +24,7 @@ header{
 				margin-right : 50px;
 				cursor: pointer;
 			}
-			li:hover{
+			.big-nav:hover{
 				color: #fff;
 				transition: 0.1s;
 			}
@@ -35,6 +35,31 @@ header{
 			#nav{
 				display: none;
 			}
+			#full-nav{
+				position: fixed;
+				top:0;
+				left:0;
+				height:100%;
+				width:100%;
+				background-color: #222233;
+				color: #DADADA;
+				font-family: "Montserrat";
+				display: none;
+
+			}
+			#full-nav-ul{
+				text-decoration: none;
+				list-style-type: none;
+			}
+			#home-nav-full{
+				font-size: 12pt;
+				text-align: center;
+				margin-top: 300px;
+			}
+			.full-nav{
+				font-size: 12pt;
+				margin-top:50px;
+			}
 			@media only screen and (max-width:750px){
 				.big-nav{
 					display: none;
@@ -42,5 +67,6 @@ header{
 				#nav{
 					display: block;
 				}
+
 
 			}
