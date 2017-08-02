@@ -61,7 +61,10 @@ header{
 				
 				position: relative;
 				left:-4%;
-				margin-top: 30px;
+				margin-top: 50px;
+			}
+			#home-nav-full{
+				margin-top: 300px;
 			}
 			@media only screen and (max-width:750px){
 				.big-nav{
@@ -73,3 +76,9 @@ header{
 
 
 			}
+			@media only screen and (max-height: 600px){
+			#home-nav-full{
+				margin-top: 200px;
+			}
+			
+		}
