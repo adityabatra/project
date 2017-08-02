@@ -58,9 +58,10 @@ header{
 			}
 			.full-nav{
 				font-size: 12pt;
-				margin-top:50px;
+				
 				position: relative;
 				left:-4%;
+				margin-top: 30px;
 			}
 			@media only screen and (max-width:750px){
 				.big-nav{
